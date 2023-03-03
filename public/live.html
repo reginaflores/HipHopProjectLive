@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta name="keywords"  content="hip hop project, met museum, rap" />
+	<meta charset="utf-8">
+	<title>The Hip Hop Project</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style_live.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main_live.js"></script>
+
+    <link rel="stylesheet" href="jplayer/lib/circle-player/skin/circle.player.css">
+	<script type="text/javascript" src="jplayer/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="jplayer/lib/circle-player/js/jquery.transform2d.js"></script>
+	<script type="text/javascript" src="jplayer/lib/circle-player/js/jquery.grab.js"></script>
+	<script type="text/javascript" src="jplayer/lib/circle-player/js/mod.csstransforms.min.js"></script>
+	<script type="text/javascript" src="jplayer/lib/circle-player/js/circle.player.js"></script>
+
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.2.3/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+
+	<link rel="stylesheet" type="text/css" href="mp3-player-button/css/mp3-player-button.css" />
+	<script type="text/javascript" src="mp3-player-button/script/soundmanager2.js"></script>
+	<script type="text/javascript" src="mp3-player-button/script/mp3-player-button.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']
+			});
+		});
+	</script>
+</head>
+<body>
+	<nav>
+		<div id="topnav">	
+			<a href="splash.html" target="_bank"><img id="logo" src="images/logo2.png" height="80" width="400"> </a>
+				<ul>
+					
+					<li><img id="request2" src="images/full40.png"></li>
+					<li><a href="live.html">Live Mode</a></li>
+					<li><a href="/">Gallery Mode</a></li>
+					<li><a href="about.html">About</a></li>
+
+				</ul>
+		</div>
+	</nav>	
+
+	
+
+	<div id="fullpage">
+		<div id="maindiv">	
+		</div>
+	</div>
+
+
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/screenfull.js"></script>
+	
+	<script>
+	$(function () {
+		$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+		if (!screenfull.enabled) {
+			return false;
+		}
+
+		$('#request').click(function () {
+			screenfull.request($('#container')[0]);
+			// does not require jQuery, can be used like this too:
+			// screenfull.request(document.getElementById('container'));
+		});
+
+		$('#exit').click(function () {
+			screenfull.exit();
+			$("#topnav").show();
+		});
+
+
+		$('#request2').click(function () {
+			screenfull.request();
+
+
+		});
+
+
+		// a little hack to be able to switch pages while in fullscreen.
+		// we basically just creates a seamless iframe and navigate in that instead.
+		$('#iframe').click(function () {
+			// We create an iframe and fill the window with it
+			var iframe = document.createElement('iframe')
+			iframe.setAttribute('id', 'external-iframe');
+			iframe.setAttribute('src', 'http://bbc.com');
+			iframe.setAttribute('frameborder', 'no');
+			iframe.style.position = 'absolute';
+			iframe.style.top = '0';
+			iframe.style.right = '0';
+			iframe.style.bottom = '0';
+			iframe.style.left = '0';
+			iframe.style.width = '100%';
+			iframe.style.height = '100%';
+			$('#container').prepend(iframe);
+			document.body.style.overflow = 'hidden';
+		})
+
+		document.addEventListener(screenfull.raw.fullscreenchange, function () {
+			var elem = screenfull.element;
+
+			$('#status').text('Is fullscreen: ' + screenfull.isFullscreen);
+
+			if (elem) {
+				$('#element').text('Element: ' + elem.localName + (elem.id ? '#' + elem.id : ''));
+			}
+
+			if (!screenfull.isFullscreen) {
+				$('#external-iframe').remove();
+				document.body.style.overflow = 'auto';
+			}
+		});
+
+		$(document).on(screenfull.raw.fullscreenchange, function screenfullChange() {
+			console.log('Fullscreen change');
+			if (screenfull.isFullscreen) {
+				$("#topnav").hide();
+			}
+			else {
+				$("#topnav").show();
+			}
+		});
+
+		// set the initial values
+		screenfullChange();
+	});
+	</script>
+
+</body>
+</html>

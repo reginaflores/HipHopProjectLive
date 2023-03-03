@@ -1,0 +1,456 @@
+/*-------------------------------*/
+/* RAPPERS DELIGHT               */
+/* CSS                           */
+/*-------------------------------*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200);
+
+/*#splashBackground{
+	background-color: black;
+}*/
+
+#splashBackground:before {
+    position: fixed;
+    content: '';
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.splash {
+	/*color:black;*/
+	width: 100%;
+	height: 100%
+	text-decoration: none;
+
+}
+
+#splashWords1:before {
+	position: fixed;
+    content: '';
+	background: rgba(0,0,0);
+	width: 100%;
+    height: 100%;
+    pointer-events: none;
+ }
+
+ #splashWords1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+  	font-style: bold;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -600px; 
+	background-color: black;
+}
+
+#kendrickSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#kanyeSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#jayzSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#biggieSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#nasSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#nickiSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+#drakeSplash{
+	width: 33%;
+	height: 33%;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+
+}
+
+#kendrickSplash a:hover{
+	text-decoration: none;
+}
+
+#kanyeSplash a:hover{
+	text-decoration: none;
+}
+
+body{
+/*	position: fixed;
+*/	background-color: white;
+	margin: 0;
+	/*overflow: hidden;*/
+/*	background-image: url('images/homepage.png');
+	background-position: top;
+	background-size: 1440px 731px;
+	background-repeat: no-repeat;*/
+}
+
+
+.name{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: bold;
+  	font-weight: 700;
+	color: white;
+	background-color: black;
+}
+
+#par1{
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-family: 'Yanone Kaffeesatz', sans-serif;
+  	font-style: normal;
+  	font-weight: 400;
+  	text-align: justify;
+  	font-size: 20px;
+
+	width: 500px; 
+	height:50px;
+  	/*margin-left: 400px;*/
+	margin-top: 200px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: italic;
+  	font-weight: 400;
+	font-size: 40px;
+
+	color: black;
+	width: 500px; 
+	height: 60px;
+	padding: 0;
+
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+	/*margin-left: 420px;*/
+	margin-top: 110px;
+	padding: 40px;
+	
+}
+
+#head2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: italic;
+  	font-weight: 400;
+	font-size: 40px;
+
+	color: black;
+	width: 500px; 
+	height:60px;
+	padding: 0;
+
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+	/*margin-left: 420px;*/
+	margin-top: 210px;
+	padding: 40px;
+	
+}
+
+.italic{
+	font-style: italic;
+}
+
+#par2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: normal;
+  	font-weight: 400;
+  	text-align: justify;
+	font-size: 20px;
+
+
+  	width: 500px; 
+	height:100px;
+  	/*margin-left: 400px;*/
+
+  	margin-left: auto;
+    margin-right: auto;
+
+	margin-top: 30px;
+}
+
+#par3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: normal;
+  	font-weight: 400;
+  	text-align: justify;
+  	font-size: 20px;
+
+  	width: 500px; 
+	height:100px;
+  	/*margin-left: 400px;*/
+
+  	margin-left: auto;
+    margin-right: auto;
+
+	margin-top: 50px;
+}
+
+#par2 a{
+	color: #546f66;
+	text-decoration: none;
+	font-style: bold;
+}
+
+#par3 a{
+	color: #546f66;
+	text-decoration: none;
+	font-style: bold;
+}
+
+a:hover{
+	/*color: yellow;*/
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+
+nav ul {
+	/*position: relative;*/
+	margin-top: 2px;
+	margin-left: 50px;
+	float: right;
+	margin: 0;
+	height: 100%;
+}
+
+/*  */
+nav li {
+	display: inline;
+	list-style-type: none; /* removing bullets */
+	/* margin: 20px; */
+	text-align: bottom;
+	float: right; 
+	font-size: 25px;
+	text-align:center
+
+}
+
+/*  */
+nav li a {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+	padding: 2px;
+	width: 110px;
+	text-decoration: none;
+	display: block; 
+	text-decoration: none;
+	margin-top:4px;
+}
+
+nav li a:hover{
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+
+a:hover, a:active {
+    /*background-color: gray;*/
+    text-decoration: none;
+}
+
+#topnav {
+	position: fixed;
+	z-index: 200;
+	width: 100vw;
+	height: 45px;
+	background-color: black;
+	top: 0;
+}	
+
+
+.rapperImg {
+	width: 100%;
+	height: 90%;
+	margin-top: 100px; /*this matches the #topnav height pixes #*/
+}
+
+.rapperHeader{
+  /*margin and padding: top, left, bottom right*/
+	width: 6.35%;
+	margin-right: 1%;
+
+}
+
+#rapperHeaderContainer{
+	margin-top: 45px;
+	height: 110px;
+	position: fixed;
+    background-color: white;
+    z-index: 100;
+	width: 100%;
+	/*opacity: 0.6;*/
+	overflow-x:scroll;
+	overflow-y:hidden;
+	white-space:nowrap;
+
+}
+
+img:hover{
+	opacity: 1.0;
+
+}
+
+#maindiv{
+	width: 80%;
+	left:0;
+	right:0;
+    margin: 0 auto;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /*font-family: 'Ubuntu Condensed';*/
+    /*font-style: italic;*/
+    font-size: 50px;
+	position: absolute;
+	top: 220px;
+}
+
+#description{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Ubuntu Condensed';*/
+	font-weight: bold;
+	font-size: 35px;
+	/*font-style: italic;*/
+	margin-left: auto;
+    margin-right: auto;
+    
+	/* margin-top:20px; */
+    margin-bottom:20px;
+    text-align: center;
+    /*overflow-x: scroll;*/
+    white-space:nowrap; 
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	width:  100%;
+	top: 140px;
+}
+
+#playbutton, #pausebutton{
+	display:inline-block;
+	/*padding-right:25px;*/
+}
+#descriptionText {
+	display:inline-block;
+}
+
+#rapperHeaderContainer img {
+	display:inline-block;
+}
+
+#topnav img {
+	display:inline-block;
+	height: 90%;
+	width: auto !important;
+	margin-top:4px;
+	margin-left: 30px;
+}
+
+h1 { 
+    display: block;
+    font-size: 35px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 5%;
+    margin-right: 0;
+    font-weight: bold;
+    /*font-family: 'Ubuntu Condensed';*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+h2 { 
+    display: block;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 5%;
+    margin-right: 0;
+    font-weight: bold;
+    /*font-family: 'Ubuntu Condensed';*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.scrollable {
+    /*overflow-x: scroll;*/
+    white-space:nowrap; 
+	overflow-y: hidden;   
+
+}
+
+.dispWord {
+	width:15%;
+	display:inline-block;
+	text-align: right;
+	vertical-align:top;
+}
+
+.dispImages {
+	width:75%;
+	display:inline-block;
+	/*overflow-x: scroll;*/
+    white-space:nowrap; 
+    overflow-y: hidden;  
+}
+
+.dispImages img {
+	opacity: 0.4;
+}
+
+.dispImages img:hover {
+	opacity: 1.0;
+}
+
+.dispSpacer {
+	width:5%;
+	display:inline-block;
+	background-color: #ff0;
+}
+
+.rapperHeader {
+	opacity: 0.4;
+}
+
+.rapperHeader.activeRapper {
+	opacity: 1.0;
+}
+
