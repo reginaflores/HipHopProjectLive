@@ -94,8 +94,11 @@ From each artwork's Met API record:
   `/collection/the-collection-online/...` links are dead.
 - **Changed:** image links now use https, and filenames are URL-encoded.
 
-Artworks whose Met record had not been fetched yet keep only their title,
-artist and Met link until the fetch completes and `enrich.py` is re-run.
+All 5,883 Met records were fetched on 2026-10-14 (one, object 276726, failed
+to download). After `enrich.py`, 9,707 of the 9,903 image slots have these
+details. The rest are the 10 hand-added slots from step 5 (details entered by
+hand) and works whose 2015 image still loads but whose Met record no longer
+exists; those keep their 2015 title and artist.
 
 ## Step 5: Words that lost every image
 
