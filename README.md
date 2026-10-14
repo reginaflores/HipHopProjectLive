@@ -1,36 +1,24 @@
-# node-js-getting-started
+# The Hip Hop Project — RappersDelight.nyc
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Translating rap lyrics into art encounters at The Metropolitan Museum of Art.
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+Live at **https://rappersdelight.nyc** (hosted on GitHub Pages).
 
-## Running Locally
+## How it works
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+This is a fully static site — no server needed.
+
+- `index.html` — splash / landing page
+- `gallery.html` — Gallery Mode: pick a rapper, see Met artworks for each lyric word
+- `live.html` — Live Mode
+- `about.html`, `press.html`
+- `data/<rapper>.json` — lyric words and matched Met artworks, one file per rapper
+- `source-data/` — the original combined data files the per-rapper JSON was generated from
+
+## Running locally
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+python3 -m http.server 8000
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+Then open http://localhost:8000.
