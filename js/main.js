@@ -31,32 +31,18 @@ function scriptOnload() {
 }
 
 window.onload = function() {
-  setTimeout(function() {
-    loadScript('mp3-player-button/script/soundmanager2.js', function() {
-      window.setTimeout(function() {
-        console.log('soundmanager2.js loaded, delaying before setup()...');
-      }, 500);
-      window.setTimeout(function() {
-        soundManager.setup({
-          url: 'mp3-player-button/swf/',
-          onready: function() {
-            // nothing
-            isSoundLoaded = true;
-          },
-          ontimeout: function() {
-            console.log('Loaded OK, but unable to start: unsupported/flash blocked, etc.');
-          }
-        });
-        // ensure start-up in case document.readyState and/or DOMContentLoaded are unavailable
-        soundManager.beginDelayedInit();
-      }, 1000);
-    });
-  }, 1000);
+  soundManager.setup({
+    url: 'mp3-player-button/swf/',
+    preferFlash: false,
+    onready: function() {
+      isSoundLoaded = true;
+    },
+    ontimeout: function() {
+      console.log('Loaded OK, but unable to start: unsupported/flash blocked, etc.');
+    }
+  });
   $("#playbutton").hide();
-  $("#pausebutton").hide(); 
-
-  
-
+  $("#pausebutton").hide();
 }
 
 var loadClip = function(songUrl) {
@@ -78,6 +64,7 @@ var loadClip = function(songUrl) {
 }
 
 var activeRapper;
+var currentWords = [];
 var switchActiveRapper = function(newActiveRapper) {
 	console.log(activeRapper + "->" + newActiveRapper);
   $(activeRapper).removeClass("activeRapper");
@@ -202,6 +189,7 @@ function getRapper(rapper) {
         console.log(results);
 
         $("#maindiv").empty();
+        currentWords = results.sendData.words;
 
         var playerHtml = '<div id="jquery_jplayer_1" class="cp-jplayer"></div>' +
             '<div id="cp_container_1" class="cp-container">' +
@@ -316,7 +304,7 @@ function getRapper(rapper) {
                 // $("#dispImages"+i).append("<a><img src=\"" + results.sendData.words[i].images[j].thumb + "\" width=\"140\" height=\"140\"></a>");
 
                 //this is the one wokring as of Oct
-				$("#dispImages"+i).append("<img onclick=\"javascript:loadIFrame('"+res+"', '"+metURL+"' )\" src=\"" + results.sendData.words[i].images[j].thumb + "\" width=\"140\" height=\"140\">");
+				$("#dispImages"+i).append("<img onclick=\"showArtwork(currentWords["+i+"].images["+j+"])\" src=\"" + results.sendData.words[i].images[j].thumb + "\" width=\"140\" height=\"140\" loading=\"lazy\">");
   
             }
 

@@ -141,6 +141,7 @@ var loadClip = function(songUrl) {
 }
 
 var activeRapper;
+var currentWords = [];
 var switchActiveRapper = function(newActiveRapper) {
 	console.log(activeRapper + "->" + newActiveRapper);
   $(activeRapper).removeClass("activeRapper");
@@ -202,6 +203,7 @@ function getRapper(rapper) {
         console.log(results);
 
         $("#maindiv").empty();
+        currentWords = results.sendData.words;
 
         var playerHtml = '<div id="jquery_jplayer_1" class="cp-jplayer"></div>' +
             '<div id="cp_container_1" class="cp-container">' +
@@ -307,7 +309,7 @@ function getRapper(rapper) {
             }
             
 
-            $("#dispImages"+i).append('<a href=\"'+results.sendData.words[i].images[0].href+'" data-featherlight="iframe" data-featherlight-iframe-width="1024" data-featherlight-iframe-min-height="500" data-featherlight-iframe-maxWidth="100%" data-featherlight-loading="<h2>Loading The Metropolitan Museum of Art</h2>"><img src="' + imageUrl + '"></a>');
+            $("#dispImages"+i).append('<a onclick="showArtwork(currentWords['+i+'].images['+indexImage+'])"><img src="' + imageUrl + '"></a>');
             
             /*
             setTimeout(function() {
