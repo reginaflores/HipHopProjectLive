@@ -297,10 +297,10 @@ function getRapper(rapper) {
             var imageUrl;
             var foundImage = false;
             var indexImage = 0;
-            while (!foundImage) {
+            while (!foundImage && indexImage < results.sendData.words[i].images.length) {
               if (!results.sendData.words[i].images[indexImage].imageBroken) {
                 foundImage = true;
-                imageUrl = results.sendData.words[i].images[indexImage].thumb.replace("web-thumb", "web-large");
+                imageUrl = results.sendData.words[i].images[indexImage].large || results.sendData.words[i].images[indexImage].thumb.replace("web-thumb", "web-large");
               }
               else {
                 indexImage++;
@@ -309,7 +309,9 @@ function getRapper(rapper) {
             }
             
 
-            $("#dispImages"+i).append('<a onclick="showArtwork(currentWords['+i+'].images['+indexImage+'])"><img src="' + imageUrl + '"></a>');
+            if (foundImage) {
+              $("#dispImages"+i).append('<a onclick="showArtwork(currentWords['+i+'].images['+indexImage+'])"><img src="' + imageUrl + '"></a>');
+            }
             
             /*
             setTimeout(function() {

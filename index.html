@@ -18,44 +18,62 @@ ______________________________________________________
 
 <!DOCTYPE html>
 <html>
-	<head> <!--Here is the header of the page-->
-		<meta charset="utf-8"><!--Setting the unicode-->
-		<title>The HipHop Project</title> <!-- Setting title of my page -->
-		<!-- external Google Font must go before the css file so we can call it to the css file-->	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The HipHop Project</title>
+		<style>
+			html, body {
+				margin: 0;
+				height: 100%;
+				background: #000;
+			}
+
+			#splash {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				min-height: 100vh;
+				min-height: 100dvh;
+				box-sizing: border-box;
+				padding: 16px;
+			}
+
+			#splash a {
+				display: block;
+				max-width: 1500px;
+				text-decoration: none;
+				width: 100%;
+			}
+
+			.splash {
+				display: block;
+				width: 100%;
+				height: auto;
+				max-height: calc(100vh - 90px);
+				max-height: calc(100dvh - 90px);
+				object-fit: contain;
+			}
+
+			.enter {
+				display: block;
+				margin-top: 16px;
+				text-align: center;
+				color: #fff;
+				font: 20px 'Ubuntu Condensed', sans-serif;
+				letter-spacing: 4px;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+		</style>
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-		<!-- external CSS link -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	</head><!-- end header --> 
-
-	<!--Putting a Nav bar at the top of the page. My logo is my home button -->
-	<!-- <a href="index.html" target="_blank">
-		<img id="logo" src="images/logo.png" height="98" width="454"> 
-	</a> -->
-	<!-- <nav>
-		<div id="topnav">	
-			<a href="index.html"><img id="logo" src="images/logo.png" height="98" width="454"> </a>
-				<ul>
-					<li><a href="rapApp.html">Rap App</a></li>
-	  				<li><a href="dataViz.html">Data Viz</a></li>
-	  				<li><a href="about.html">About</a></li>
-	  				<li><a href="index.html">Home</a></li>
-				</ul>
+	</head>
+	<body>
+		<div id="splash">
+			<a href="gallery.html">
+				<img class="splash" src="images/splash_current.jpg" alt="The Metropolitan Museum of Art: The Hip Hop Project, translating rap lyrics into art encounters">
+				<span class="enter">Enter &rarr;</span>
+			</a>
 		</div>
-	</nav> -->
-	<div id="splash">
-	<!-- <a href="gallery.html"><img class="splash" src="images/splash_image_normalsize_Medium.png" alt="splash"> </a> -->
-	<a href="gallery.html"><img class="splash" src="images/splash_current.jpg" alt="splash"> </a>
-	<!-- <img class="rapperImg" src="images/splashpage.jpg" alt="Rappers">
-	<a href="index.html">home</a> -->
-	</div>
-	<body><!--Here is the body of the page-->
-
-
-	</body><!-- end body --> 
-</html><!-- end html --> 
-
-<!--____________________END FILE____________________________-->
-
-
+	</body>
+</html>

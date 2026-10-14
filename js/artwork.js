@@ -13,7 +13,7 @@ function metObjectUrl(href) {
 }
 
 function showArtwork(image) {
-  var large = image.thumb.replace("web-thumb", "web-large").replace(/^http:/, "https:");
+  var large = image.large || image.thumb.replace("web-thumb", "web-large").replace(/^http:/, "https:");
   var artist = image.primaryArtistNameOnly || "";
   var html =
     '<div class="artwork-box">' +
@@ -23,6 +23,9 @@ function showArtwork(image) {
       '<div class="artwork-info">' +
         '<h2>' + escapeHtml(image.title) + '</h2>' +
         (artist ? '<p class="artwork-artist">' + escapeHtml(artist) + '</p>' : '') +
+        (image.date ? '<p class="artwork-date">' + escapeHtml(image.date) + '</p>' : '') +
+        (image.medium ? '<p class="artwork-medium">' + escapeHtml(image.medium) + '</p>' : '') +
+        (image.culture ? '<p class="artwork-culture">' + escapeHtml(image.culture) + '</p>' : '') +
         (image.gallery ? '<p class="artwork-gallery">' + escapeHtml(image.gallery) + '</p>' : '') +
         '<a class="artwork-link" href="' + metObjectUrl(image.href) + '" target="_blank" rel="noopener">View at The Met &rarr;</a>' +
       '</div>' +
