@@ -23,10 +23,8 @@ function showArtwork(image) {
       '<div class="artwork-info">' +
         '<h2>' + escapeHtml(image.title) + '</h2>' +
         (artist ? '<p class="artwork-artist">' + escapeHtml(artist) + '</p>' : '') +
-        (image.date ? '<p class="artwork-date">' + escapeHtml(image.date) + '</p>' : '') +
-        (image.medium ? '<p class="artwork-medium">' + escapeHtml(image.medium) + '</p>' : '') +
-        (image.culture ? '<p class="artwork-culture">' + escapeHtml(image.culture) + '</p>' : '') +
-        (image.gallery ? '<p class="artwork-gallery">' + escapeHtml(image.gallery) + '</p>' : '') +
+        (image.type || image.date ? '<p class="artwork-type">' + escapeHtml([image.type, image.date].filter(Boolean).join(', ')) + '</p>' : '') +
+        (image.location ? '<p class="artwork-location">' + escapeHtml(image.location) + '</p>' : '') +
         '<a class="artwork-link" href="' + metObjectUrl(image.href) + '" target="_blank" rel="noopener">View at The Met &rarr;</a>' +
       '</div>' +
     '</div>';
