@@ -13,7 +13,7 @@ This is a fully static site — no server needed.
 - `live.html` — Live Mode
 - `about.html`, `press.html`
 - `data/<rapper>.json` — lyric words and matched Met artworks, one file per rapper
-- `source-data/` — the original combined data files the per-rapper JSON was generated from
+- `source-data/` — original 2015 data (unmodified) plus a full log of every data change: see [source-data/DATA-CHANGES.md](source-data/DATA-CHANGES.md)
 
 ## Running locally
 

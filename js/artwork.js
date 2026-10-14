@@ -25,6 +25,7 @@ function showArtwork(image) {
         (artist ? '<p class="artwork-artist">' + escapeHtml(artist) + '</p>' : '') +
         (image.type || image.date ? '<p class="artwork-type">' + escapeHtml([image.type, image.date].filter(Boolean).join(', ')) + '</p>' : '') +
         (image.location ? '<p class="artwork-location">' + escapeHtml(image.location) + '</p>' : '') +
+        (image.imageCredit ? '<p class="artwork-credit">Image: <a href="' + image.imageCreditUrl + '" target="_blank" rel="noopener">' + escapeHtml(image.imageCredit) + '</a></p>' : '') +
         '<a class="artwork-link" href="' + metObjectUrl(image.href) + '" target="_blank" rel="noopener">View at The Met &rarr;</a>' +
       '</div>' +
     '</div>';

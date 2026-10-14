@@ -1,0 +1,43 @@
+404 https://images.metmuseum.org/CRDImages/an/web-thumb/me 1983_135_4a,b,c.jpg
+200 https://images.metmuseum.org/CRDImages/ao/web-thumb/PCC 16555.jpg
+200 https://images.metmuseum.org/CRDImages/ao/web-thumb/PCC 9061.jpg
+200 https://images.metmuseum.org/CRDImages/ao/web-thumb/PCC 16554.jpg
+200 https://images.metmuseum.org/CRDImages/ao/web-thumb/TR.85.6.2007 a.jpg
+404 https://images.metmuseum.org/CRDImages/ao/web-thumb/TR.85.5.2007 a.jpg
+200 https://images.metmuseum.org/CRDImages/as/web-thumb/02_18_276 Pick.JPG
+200 https://images.metmuseum.org/CRDImages/as/web-thumb/36 DP310530R3_61D.jpg
+404 https://images.metmuseum.org/CRDImages/as/web-thumb/5 DP297456r4_61A.jpg
+200 https://images.metmuseum.org/CRDImages/as/web-thumb/6 DP310502r3_61A.jpg
+200 https://images.metmuseum.org/CRDImages/dp/web-thumb/figure 218R1_24DD.jpg
+200 https://images.metmuseum.org/CRDImages/eg/web-thumb/08.200.15a (1).jpg
+200 https://images.metmuseum.org/CRDImages/eg/web-thumb/08.200.15b (1).jpg
+200 https://images.metmuseum.org/CRDImages/ep/web-thumb/Le brun Jabach.jpg
+404 https://images.metmuseum.org/CRDImages/ep/web-thumb/Mazzolino Lamentation.jpg
+200 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF 11.126.2.jpg
+404 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF 39.42.jpg
+200 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF DT1049.jpg
+200 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF Lorenzetti.jpg
+404 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF Maso.jpg
+200 https://images.metmuseum.org/CRDImages/ep/web-thumb/SF front 22.60.61.jpg
+404 https://images.metmuseum.org/CRDImages/es/web-thumb/193745 (68.141.254a, b).jpg
+200 https://images.metmuseum.org/CRDImages/is/web-thumb/basalt arch panel mma 1986.145.jpg
+200 https://images.metmuseum.org/CRDImages/is/web-thumb/Lot 118.JPG
+200 https://images.metmuseum.org/CRDImages/li/web-thumb/li125.97 D932.R.jpg
+200 https://images.metmuseum.org/CRDImages/li/web-thumb/li270.52 T49.R.jpg
+200 https://images.metmuseum.org/CRDImages/li/web-thumb/li903.6 R541 F.R.jpg
+200 https://images.metmuseum.org/CRDImages/ma/web-thumb/2007.530a, b - label.jpg
+200 https://images.metmuseum.org/CRDImages/ma/web-thumb/TR.528.2011 side1.jpg
+404 https://images.metmuseum.org/CRDImages/ma/web-thumb/sf 1976.323.jpg
+200 https://images.metmuseum.org/CRDImages/ma/web-thumb/tr444 10.jpg
+200 https://images.metmuseum.org/CRDImages/ma/web-thumb/tr444 8.jpg
+404 https://images.metmuseum.org/CRDImages/mi/web-thumb/89.4.39 slide.jpg
+200 https://images.metmuseum.org/CRDImages/mi/web-thumb/C2427 89.4.2812.jpg
+200 https://images.metmuseum.org/CRDImages/mi/web-thumb/C5539 1986.467.5.jpg
+200 https://images.metmuseum.org/CRDImages/mi/web-thumb/C5539 1986.467.60.jpg
+404 https://images.metmuseum.org/CRDImages/mi/web-thumb/C6804 1989.201.jpg
+404 https://images.metmuseum.org/CRDImages/mi/web-thumb/C6804 1989.212.jpg
+200 https://images.metmuseum.org/CRDImages/ph/web-thumb/00181 Dey Street.jpg
+200 https://images.metmuseum.org/CRDImages/ph/web-thumb/2009-27_Nakagawa_Okinawa 001.jpg
+200 https://images.metmuseum.org/CRDImages/ph/web-thumb/DP106392 1987.1100.308.jpg
+200 https://images.metmuseum.org/CRDImages/ph/web-thumb/MH-DutchLandscapes-Staphorst Ammunition Depot.jpg
+200 https://images.metmuseum.org/CRDImages/ph/web-thumb/SIMON_2011_ALivingMan_Chapter11_Framed_HI RES.jpg

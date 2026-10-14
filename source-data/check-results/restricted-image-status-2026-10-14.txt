@@ -1,0 +1,289 @@
+10055 200 
+10105 200 
+10130 200 
+10403 200 
+104812 404 {"message":"object not found"}
+10555 200 
+106153 404 {"message":"object not found"}
+10652 200 
+10673 200 
+10674 200 
+10684 200 
+10749 200 
+10915 200 
+10933 200 
+10972 200 
+10973 200 
+110259 404 {"message":"object not found"}
+110260 404 {"message":"object not found"}
+110264 404 {"message":"object not found"}
+110265 404 {"message":"object not found"}
+110266 404 {"message":"object not found"}
+11034 200 
+11277 200 
+11476 200 
+11477 200 
+11478 200 
+11479 200 
+11482 200 
+11491 200 
+11492 404 {"message":"iiif server returned non-OK status"}
+11493 404 {"message":"iiif server returned non-OK status"}
+11494 200 
+11600 200 
+11609 200 
+11693 200 
+11804 200 
+11858 200 
+11955 404 {"message":"iiif server returned non-OK status"}
+12076 200 
+12248 200 
+12333 200 
+12456 200 
+12477 200 
+127457 404 {"message":"object not found"}
+12810 200 
+13084 200 
+13166 200 
+14700 200 
+14718 200 
+14755 200 
+14769 200 
+14770 200 
+14771 200 
+14930 200 
+156161 404 {"message":"object not found"}
+157292 404 {"message":"object not found"}
+158431 404 {"message":"object not found"}
+159250 404 {"message":"object not found"}
+159251 404 {"message":"object not found"}
+159252 404 {"message":"object not found"}
+159253 404 {"message":"object not found"}
+159254 404 {"message":"object not found"}
+159255 404 {"message":"object not found"}
+159256 404 {"message":"object not found"}
+159257 404 {"message":"object not found"}
+159258 404 {"message":"object not found"}
+159261 404 {"message":"object not found"}
+159262 404 {"message":"object not found"}
+159263 404 {"message":"object not found"}
+159264 404 {"message":"object not found"}
+159265 404 {"message":"object not found"}
+159270 404 {"message":"object not found"}
+159272 404 {"message":"object not found"}
+159284 404 {"message":"object not found"}
+159285 404 {"message":"object not found"}
+159286 404 {"message":"object not found"}
+159287 404 {"message":"object not found"}
+159288 404 {"message":"object not found"}
+16571 200 
+16717 200 
+16776 200 
+16881 200 
+17803 200 
+190564 404 {"message":"image not found for this object"}
+19144 404 {"message":"iiif server returned non-OK status"}
+19256 200 
+19262 200 
+19294 200 
+192999 404 {"message":"object not found"}
+19301 404 {"message":"iiif server returned non-OK status"}
+193107 200 
+193174 200 
+19322 200 
+19360 200 
+19744 200 
+20614 404 {"message":"iiif server returned non-OK status"}
+209122 404 {"message":"object not found"}
+219413 404 {"message":"object not found"}
+228484 404 {"message":"object not found"}
+228486 404 {"message":"object not found"}
+265363 404 {"message":"iiif server returned non-OK status"}
+265403 200 
+266905 200 
+266923 200 
+267271 200 
+268077 404 {"message":"image not found for this object"}
+272138 200 
+274906 404 {"message":"iiif server returned non-OK status"}
+274908 404 {"message":"iiif server returned non-OK status"}
+274957 404 {"message":"iiif server returned non-OK status"}
+276269 404 {"message":"iiif server returned non-OK status"}
+283441 200 
+284776 200 
+286820 200 
+287806 200 
+287807 200 
+288138 200 
+289527 200 
+307425 404 {"message":"image not found for this object"}
+310331 200 
+310370 404 {"message":"iiif server returned non-OK status"}
+310537 404 {"message":"image not found for this object"}
+310754 200 
+310801 200 
+310841 200 
+311035 200 
+311237 200 
+311260 200 
+311596 200 
+311597 200 
+311605 404 {"message":"iiif server returned non-OK status"}
+311743 404 {"message":"iiif server returned non-OK status"}
+311745 200 
+312370 404 {"message":"iiif server returned non-OK status"}
+312448 404 {"message":"iiif server returned non-OK status"}
+312458 404 {"message":"iiif server returned non-OK status"}
+313641 200 
+313650 200 
+313774 200 
+313809 200 
+313830 200 
+314006 200 
+314147 404 {"message":"iiif server returned non-OK status"}
+314148 404 {"message":"iiif server returned non-OK status"}
+314304 200 
+314368 200 
+314740 200 
+315061 404 {"message":"iiif server returned non-OK status"}
+316008 200 
+316792 200 
+317823 200 
+318949 200 
+319856 200 
+319857 200 
+329091 200 
+339057 200 
+354990 200 
+35783 404 {"message":"object not found"}
+362447 200 
+366720 200 
+373564 404 {"message":"iiif server returned non-OK status"}
+381854 200 
+38203 200 
+39816 404 {"message":"image not found for this object"}
+42039 404 {"message":"iiif server returned non-OK status"}
+421195 404 {"message":"object not found"}
+428526 404 {"message":"image not found for this object"}
+42925 404 {"message":"object not found"}
+437127 200 
+437135 200 
+437137 200 
+437162 404 {"message":"object not found"}
+437198 200 
+437501 404 {"message":"object not found"}
+437670 200 
+437672 200 
+437787 200 
+438008 200 
+438390 404 {"message":"object not found"}
+440331 404 {"message":"iiif server returned non-OK status"}
+4409 404 {"message":"object not found"}
+44520 200 
+44850 404 {"message":"object not found"}
+460982 404 {"message":"image not found for this object"}
+465784 404 {"message":"object not found"}
+465796 404 {"message":"object not found"}
+480706 200 
+481513 200 
+481541 200 
+481949 404 {"message":"iiif server returned non-OK status"}
+482133 200 
+482447 200 
+482518 200 
+482617 200 
+482698 200 
+482740 200 
+483135 200 
+483154 200 
+483234 200 
+483562 404 {"message":"iiif server returned non-OK status"}
+484397 200 
+484535 404 {"message":"iiif server returned non-OK status"}
+484862 200 
+484866 200 
+484984 404 {"message":"iiif server returned non-OK status"}
+484985 404 {"message":"iiif server returned non-OK status"}
+485385 404 {"message":"iiif server returned non-OK status"}
+485596 200 
+485768 200 
+485801 200 
+485823 200 
+485898 200 
+486079 200 
+486203 200 
+486371 200 
+486844 200 
+486996 200 
+487083 200 
+487314 200 
+487942 404 {"message":"iiif server returned non-OK status"}
+488484 200 
+488687 404 {"message":"iiif server returned non-OK status"}
+488756 404 {"message":"iiif server returned non-OK status"}
+488823 200 
+488853 200 
+488978 200 
+489124 200 
+489700 200 
+48986 404 {"message":"object not found"}
+490000 200 
+490217 200 
+490685 404 {"message":"iiif server returned non-OK status"}
+490749 200 
+490889 200 
+490913 200 
+491329 404 {"message":"iiif server returned non-OK status"}
+491366 404 {"message":"iiif server returned non-OK status"}
+491474 404 {"message":"iiif server returned non-OK status"}
+491485 404 {"message":"iiif server returned non-OK status"}
+491688 200 
+491690 200 
+491714 200 
+491973 200 
+492324 404 {"message":"image not found for this object"}
+492701 200 
+492755 200 
+492774 200 
+493203 200 
+493856 200 
+494822 404 {"message":"iiif server returned non-OK status"}
+495250 200 
+49637 404 {"message":"iiif server returned non-OK status"}
+49658 404 {"message":"iiif server returned non-OK status"}
+49805 404 {"message":"object not found"}
+499045 404 {"message":"iiif server returned non-OK status"}
+499719 200 
+500061 404 {"message":"image not found for this object"}
+501498 404 {"message":"image not found for this object"}
+503261 200 
+503289 200 
+503320 200 
+503369 200 
+503370 200 
+504205 200 
+504206 200 
+504207 200 
+505216 200 
+505501 200 
+542418 404 {"message":"iiif server returned non-OK status"}
+542419 404 {"message":"iiif server returned non-OK status"}
+546058 404 {"message":"image not found for this object"}
+546505 404 {"message":"image not found for this object"}
+552198 404 {"message":"image not found for this object"}
+568216 404 {"message":"image not found for this object"}
+571171 404 {"message":"image not found for this object"}
+571890 200 
+591848 200 
+591867 200 
+632989 200 
+638564 200 
+639221 200 
+646224 200 
+659011 200 
+72794 200 
+73163 200 
+74840 200 
+76456 200 
+7873 200 
+88102 404 {"message":"object not found"}

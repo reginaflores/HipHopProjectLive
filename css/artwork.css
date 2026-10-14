@@ -38,3 +38,11 @@
 .artwork-link:hover {
   background: #444;
 }
+
+.artwork-credit {
+  font-size: 13px;
+}
+
+.artwork-credit a {
+  color: #555;
+}
